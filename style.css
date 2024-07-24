@@ -1,0 +1,6 @@
+.header-background {
+  background-image: url(acme-website-homepage-assets/header.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+}
