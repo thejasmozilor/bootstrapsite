@@ -23,45 +23,56 @@
         <p class="text-white m-0">How we're responding to COVID-19</p>
       </div>
 
-      <div
-        class="container-fluid bg-danger d-flex justify-content-between align-items-center px-5 py-3"
-      >
-        <div class="">
-          <img src="acme-website-homepage-assets/acme-logo.svg" alt="" />
-        </div>
-        <div class="d-flex justify-content-between gap-3">
-          <div
-            class="gap-3 d-flex justify-content-between align-items-center text-white"
-          >
-            <p class="m-0">Home</p>
-            <p class="m-0">About</p>
-            <p class="m-0">Shop</p>
-            <p class="m-0">Donate</p>
-            <p class="m-0">Contact</p>
+      <div class="container-fluid bg-danger px-5">
+        <div
+          class="container d-flex justify-content-between align-items-center px-5 py-3"
+        >
+          <div class="">
+            <img src="acme-website-homepage-assets/acme-logo.svg" alt="" />
           </div>
-          <div
-            class="cart bg-dark d-flex justify-content-center align-items-center rounded position-relative"
-            style="height: 30px; width: 40px"
-          >
-            <div
-              class="cart-count position-absolute bg-white rounded-circle top-0 start-100 translate-middle"
-              style="
-                width: 16px;
-                height: 16px;
-                font-size: 12px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: auto;
-              "
-            >
-              <p class="m-0">0</p>
+          <div class="d-flex justify-content-between gap-3">
+            <div class="home-section">
+              <div
+                class="gap-3 d-flex justify-content-between align-items-center text-white"
+              >
+                <p class="m-0">Home</p>
+                <p class="m-0">About</p>
+                <p class="m-0">Shop</p>
+                <p class="m-0">Donate</p>
+                <p class="m-0">Contact</p>
+              </div>
             </div>
-            <img
-              class="h-50 p-0"
-              src="acme-website-homepage-assets/cart.svg"
-              alt=""
-            />
+            <div class="d-flex align-items-center">
+              <img
+                class="menu-burger"
+                src="acme-website-homepage-assets/menu-burger.svg"
+                alt=""
+              />
+            </div>
+            <div
+              class="cart bg-dark d-flex justify-content-center align-items-center rounded position-relative"
+              style="height: 30px; width: 40px"
+            >
+              <div
+                class="cart-count position-absolute bg-white rounded-circle top-0 start-100 translate-middle"
+                style="
+                  width: 16px;
+                  height: 16px;
+                  font-size: 12px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  padding: auto;
+                "
+              >
+                <p class="m-0">0</p>
+              </div>
+              <img
+                class="h-50 p-0"
+                src="acme-website-homepage-assets/cart.svg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -69,10 +80,10 @@
 
     <section>
       <div>
-        <div class="overlay"></div>
-        <div class="header-background text-white">
+        <div class="header-background text-white z-n1">
+          <div class="overlay z-n1"></div>
           <h1 class="fs-1">Serving you<br />since 1989.</h1>
-          <p>
+          <p class="">
             Acme Outdoors is an outdoor and adventure <br />
             shop located in the Boathouse Distnet in <br />
             Oklahoma City.
@@ -81,89 +92,94 @@
         </div>
       </div>
 
-      <div class="row container d-flex justify-content-between px-5 py-5">
-        <div class="text-dark col-lg-6 col-sm-12">
-          <p>WAYS TO SUPPORT</p>
-          <h2>Support Acme Outdoors.</h2>
-        </div>
+      <div class="container d-flex justify-content-between px-5 py-5">
+        <div class="row">
+          <div class="text-dark col-lg-6 col-sm-12">
+            <p>WAYS TO SUPPORT</p>
+            <h2 class="mb-5">Support Acme Outdoors.</h2>
+          </div>
 
-        <div class="text-dark col-lg-6 col-sm-12">
-          <p>
-            COVID-19 has forced us to close our retail space, out we need
-            support from patrons like yourself now more than ever. Below, we've
-            listed the best ways to help us through this season.
-          </p>
+          <div class="text-dark col-lg-6 col-sm-12">
+            <p>
+              COVID-19 has forced us to close our retail space, out we need
+              support from patrons like yourself now more than ever. Below,
+              we've listed the best ways to help us through this season.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="container px-5 py-5 d-flex justify-content-between row">
-        <div class="col-lg-3">
-          <div class="bg-dark position-relative p-5">
-            <h2 class="text-white">01</h2>
-            <h1 class="text-center text-white py-3">
-              SHOP <br />
-              PRODUCTS
-            </h1>
-            <img
-              class="position-absolute top-100 start-100 translate-middle"
-              src="acme-website-homepage-assets/circle.svg"
-              alt=""
-            />
-          </div>
-          <p class="text-dark mt-5">
-            Our full product line is still available online here on our site!
-            Getting outside and hiking is still something you can do. Get your
-            gear now!
-          </p>
-        </div>
+      <div class="container px-5 pb-5">
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div
+              class="bg-dark position-relative p-5 black-card d-flex justify-content-center align-items-center z-n1"
+            >
+              <h2 class="text-white position-absolute card-number">01</h2>
+              <h2 class="text-center text-white py-3">
+                SHOP <br />
+                PRODUCTS
+              </h2>
+              <img
+                class="position-absolute top-100 start-100 translate-middle z-n1"
+                src="acme-website-homepage-assets/circle.svg"
+                alt=""
+              />
+            </div>
 
-        <div class="col-lg-3">
-          <div class="bg-dark position-relative p-5">
-            <h2 class="text-white">01</h2>
-            <h1 class="text-center text-white py-3">
-              SHOP <br />
-              PRODUCTS
-            </h1>
-            <img
-              class="position-absolute top-100 translate-middle"
-              style="left: 85%"
-              src="acme-website-homepage-assets/triangle.svg"
-              alt=""
-            />
+            <p class="text-dark mt-5">
+              Our full product line is still available online here on our site!
+              Getting outside and hiking is still something you can do. Get your
+              gear now!
+            </p>
           </div>
-          <p class="text-dark mt-5">
-            Our full product line is still available online here on our site!
-            Getting outside and hiking is still something you can do. Get your
-            gear now!
-          </p>
-        </div>
 
-        <div class="col-lg-3">
-          <div class="bg-dark position-relative p-5">
-            <h2 class="text-white">01</h2>
-            <h1 class="text-center text-white py-3">
-              SHOP <br />
-              PRODUCTS
-            </h1>
-            <img
-              class="position-absolute start-100 translate-middle"
-              style="top: 110%"
-              src="acme-website-homepage-assets/rectangle.svg"
-              alt=""
-            />
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div
+              class="bg-dark position-relative p-5 black-card d-flex justify-content-center align-items-center z-n1"
+            >
+              <h2 class="text-white position-absolute card-number">01</h2>
+              <h2 class="text-center text-white py-3">DONATE</h2>
+              <img
+                class="position-absolute top-100 translate-middle z-n1"
+                style="left: 85%"
+                src="acme-website-homepage-assets/triangle.svg"
+                alt=""
+              />
+            </div>
+            <p class="text-dark mt-5">
+              Our full product line is still available online here on our site!
+              Getting outside and hiking is still something you can do. Get your
+              gear now!
+            </p>
           </div>
-          <p class="text-dark mt-5">
-            Our full product line is still available online here on our site!
-            Getting outside and hiking is still something you can do. Get your
-            gear now!
-          </p>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div
+              class="bg-dark position-relative p-5 black-card d-flex justify-content-center align-items-center z-n1"
+            >
+              <h2 class="text-white position-absolute card-number">03</h2>
+              <h2 class="text-center text-white py-3">BUY GIFT CARDS</h2>
+              <img
+                class="position-absolute start-100 translate-middle z-n1"
+                style="top: 110%"
+                src="acme-website-homepage-assets/rectangle.svg"
+                alt=""
+              />
+            </div>
+            <p class="text-dark mt-5">
+              Our full product line is still available online here on our site!
+              Getting outside and hiking is still something you can do. Get your
+              gear now!
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="overlay"></div>
       <div
-        class="statement-background text-white d-flex flex-column align-items-end text-end"
+        class="statement-background text-white d-flex flex-column align-items-end text-end z-n1"
       >
+        <div class="overlay z-n1"></div>
         <h1 class="fs-1">How we're keeping you safe during COVID-19</h1>
         <p class="">
           As an outdoor shop, we've taken precautionary measures to ensure the
@@ -175,8 +191,10 @@
       <div class="shop container px-5 py-5">
         <p>SHOP PRODUCTS</p>
         <h1 class="pb-5">Open 24/7/365.</h1>
-        <div class="d-flex justify-content-between row">
-          <div class="col-lg-3 d-flex flex-column align-items-center">
+        <div class="d-flex row">
+          <div
+            class="col-lg-4 col-sm-12 col-md-6 d-flex flex-column align-items-center"
+          >
             <img
               class="card-image rounded"
               src="acme-website-homepage-assets/product-1.jpg"
@@ -184,32 +202,43 @@
             />
             <h6 class="mt-3">White Tent</h6>
             <p class="small">$200.00 USD</p>
-            <button class="btn btn-danger">Details</button>
+            <button class="btn btn-danger mb-5">Details</button>
           </div>
 
-          <div class="col-lg-3 d-flex flex-column align-items-center">
+          <div
+            class="col-lg-4 col-sm-12 col-md-6 d-flex flex-column align-items-center"
+          >
             <img
-              class="w-50"
-              src="acme-website-homepage-assets/product-1.jpg"
+              class="card-image rounded"
+              src="acme-website-homepage-assets/product-2.jpg"
               alt=""
             />
-            <h6>White Tent</h6>
-            <p>$200.00 USD</p>
-            <button class="btn btn-danger">Details</button>
+            <h6 class="mt-3">Tin Coffee Tumbler</h6>
+            <p class="small">$35.00 USD</p>
+            <button class="btn btn-danger mb-5">Details</button>
           </div>
 
-          <div class="col-lg-3 d-flex flex-column align-items-center">
-            <img
-              class="w-25"
-              src="acme-website-homepage-assets/product-1.jpg"
-              alt=""
-            />
-            <h6>White Tent</h6>
-            <p>$200.00 USD</p>
-            <button class="btn btn-danger">Details</button>
+          <div
+            class="col-lg-4 col-sm-12 col-md-6 d-flex flex-column align-items-center"
+          >
+            <div class="position-relative">
+              <img
+                class="card-image rounded"
+                src="acme-website-homepage-assets/product-3.jpg"
+                alt=""
+              />
+              <div class="btn btn-danger position-absolute px-3 sale-btn">
+                SALE
+              </div>
+            </div>
+            <h6 class="mt-3">Blue Canvas Pack</h6>
+            <p class="small">
+              $95.00 USD <del class="text-danger">$145.00 USD</del>
+            </p>
+            <button class="btn btn-danger mb-5">Details</button>
           </div>
         </div>
-        <div class="d-flex justify-content-center pt-5">
+        <div class="d-flex justify-content-center">
           <button class="btn btn-dark">View All Products</button>
         </div>
       </div>
@@ -218,42 +247,48 @@
         class="container px-5 d-flex justify-content-end position-relative mb-5"
       >
         <div
-          class="shop-local bg-dark my-20px d-flex align-items-center px-5 pt-5 pb-3 rounded"
+          class="shop-local my-20px d-flex align-items-center px-5 pt-5 pb-3 rounded"
         >
-          <img
-            class="profile-image position-absolute"
-            src="acme-website-homepage-assets/profile.jpg"
-            alt=""
-          />
-          <div class="shop-text text-white">
-            <h1>Shop Local.</h1>
-            <p>
-              We know that during COVID-19, a lot of folks around the city and
-              state are feeling uneasy about the future - we're not sure what
-              the future holds either. <br />That said: we know that we love
-              making sure you have the gear you need for your adventures, and
-              we're going to keep doing that - with our team - until the city
-              tells us we can't. <br />
-              But as long as folks like yourself support small businesses around
-              the city,then we'll be here - every day, making sure your orders
-              arrive on time. <br />
-              ------- <br />Jane & John Doe
-            </p>
-            <p class="font-weight-bold">Acme Outdoors</p>
+          <div class="row">
+            <img
+              class="profile-image col-sm-12"
+              src="acme-website-homepage-assets/profile.jpg"
+              alt=""
+            />
+            <div class="shop-text text-white col-sm-12">
+              <h1>Shop Local.</h1>
+              <p>
+                We know that during COVID-19, a lot of folks around the city and
+                state are feeling uneasy about the future - we're not sure what
+                the future holds either. <br />That said: we know that we love
+                making sure you have the gear you need for your adventures, and
+                we're going to keep doing that - with our team - until the city
+                tells us we can't. <br />
+                But as long as folks like yourself support small businesses
+                around the city,then we'll be here - every day, making sure your
+                orders arrive on time. <br />
+                ------- <br />Jane & John Doe
+              </p>
+              <p class="font-weight-bold">Acme Outdoors</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <footer class="container-fluid bg-dark px-5">
-      <div class="container px-5 py-3 bg-dark d-flex justify-content-between">
+      <div
+        class="container px-5 py-3 bg-dark d-flex justify-content-between footer-div"
+      >
         <div>
           <img src="acme-website-homepage-assets/acme-logo.svg" alt="" />
         </div>
-        <div class="gap-3 d-flex justify-content-between">
-          <img src="acme-website-homepage-assets/twitter.svg" alt="" />
-          <img src="acme-website-homepage-assets/facebook.svg" alt="" />
+
+        <div class="gap-3 social-links">
           <img src="acme-website-homepage-assets/instagram.svg" alt="" />
+
+          <img src="acme-website-homepage-assets/facebook.svg" alt="" />
+          <img src="acme-website-homepage-assets/twitter.svg" alt="" />
         </div>
       </div>
     </footer>
